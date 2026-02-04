@@ -28,8 +28,23 @@ def connect_to_db():
     except Exception as e:
         print("Error loading your database: ", e)
 
-def inserting_contents(cursor):
-    pass
+#urniversal check
+def universal_check(cursor, tabel, column, value) -> bool:
+    #calls the table with the id of the table
+    sql = f"select id{tabel} from {tabel} where {column} = %s"
+    cursor.execute(sql, (value,))
+    item = cursor.fetchone()
+    #checks if the item exist, if so it returns true
+    if item:
+        return True
+    return False
+
+
+#inserting continents
+def inserting_continents(cursor):
+    if universal_check(cursor, "Continents", "Continent_name", "Europe"):
+        return True
+    return False
 
 def main():
     db = connect_to_db()
@@ -37,6 +52,14 @@ def main():
 
     #creating the cursor
     cursor = db.cursor()
+    print("cursor connected")
+
+    #inserting the continents
+    inserting_continents(cursor)
+
+    #closing the database
+    cursor.close()
+    db.close()
 
 
 if __name__ == '__main__':

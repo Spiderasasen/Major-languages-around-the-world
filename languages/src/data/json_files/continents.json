@@ -1,8 +1,8 @@
 [
-  "Asia",
-  "Africa",
-  "North America",
-  "South America",
-  "Europe",
-  "Oceania"
+  { "name": "Asia" },
+  { "name": "Africa" },
+  { "name": "North America" },
+  { "name": "South America" },
+  { "name": "Europe" },
+  { "name": "Oceania" }
 ]
