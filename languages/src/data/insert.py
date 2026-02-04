@@ -10,8 +10,27 @@ def load_credentials(path = "credentials.txt"):
             credentials[key] = value
     return credentials
 
+#connecting the data base
+def connect_to_db():
+    credentials = load_credentials()
+
+    #checking if there is no error
+    try:
+        mydb = mysql.connector.connect(
+            host = credentials["host"],
+            user = credentials["user"],
+            password = credentials["password"],
+            database = credentials["database"]
+        )
+        return mydb
+
+    #if there is it will tell us
+    except Exception as e:
+        print("Error loading your database: ", e)
+
 def main():
-    print(load_credentials())
+    db = connect_to_db()
+    print("Connected to your database")
 
 if __name__ == '__main__':
     main()
