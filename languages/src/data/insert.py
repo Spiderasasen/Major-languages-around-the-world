@@ -28,9 +28,16 @@ def connect_to_db():
     except Exception as e:
         print("Error loading your database: ", e)
 
+def inserting_contents(cursor):
+    pass
+
 def main():
     db = connect_to_db()
     print("Connected to your database")
+
+    #creating the cursor
+    cursor = db.cursor()
+
 
 if __name__ == '__main__':
     main()
