@@ -28,36 +28,61 @@ def connect_to_db():
     except Exception as e:
         print("Error loading your database: ", e)
 
+#loading data
+def load_data(file):
+    with open(file, "r") as f:
+        return json.load(f)
+
 #urniversal check
-def universal_check(cursor, tabel, column, value) -> bool:
+def universal_check(cursor, tabel, column, value):
     #calls the table with the id of the table
     sql = f"select id{tabel} from {tabel} where {column} = %s"
     cursor.execute(sql, (value,))
     item = cursor.fetchone()
     #checks if the item exist, if so it returns true
     if item:
-        return True
+        return item[0]
     return False
 
 
 #inserting continents
-def inserting_continents(cursor):
-    if universal_check(cursor, "Continents", "Continent_name", "Europe"):
-        return True
-    return False
+def inserting_continents(cursor, data):
+    check =  universal_check(cursor, "Continents", "Continent_name", data["name"])
+    if check:
+        return check
+
+    #inserting the item if its not in there
+    insert_sql = "insert into Continents (Continent_name) values (%s)"
+    cursor.execute(insert_sql, (data["name"],))
 
 def main():
     db = connect_to_db()
     print("Connected to your database")
 
+    #place where all the data is being held
+    data = {
+        "Continent": "json_files/continents.json"
+    }
+
     #creating the cursor
     cursor = db.cursor()
     print("cursor connected")
 
-    #inserting the continents
-    inserting_continents(cursor)
+    for key, item in data.items():
+        print("Using: ", key)
+
+        #going to the right loaction
+        match key:
+            case "Continent":
+                names = load_data(item)
+                for name in names:
+                    print(name)
+                    #inserting the continents
+                    inserting_continents(cursor, name)
 
     #closing the database
+    print("Finished inserting all data!!!")
+    db.commit()
     cursor.close()
     db.close()
 
