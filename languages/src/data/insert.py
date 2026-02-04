@@ -5,10 +5,13 @@ import json
 def load_credentials(path = "credentials.txt"):
     credentials = {}
     with open(path, "r") as f:
-
+        for line in f:
+            key,value = line.strip().split("=")
+            credentials[key] = value
+    return credentials
 
 def main():
-    pass
+    print(load_credentials())
 
 if __name__ == '__main__':
     main()
