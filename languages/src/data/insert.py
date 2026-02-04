@@ -55,13 +55,24 @@ def inserting_continents(cursor, data):
     insert_sql = "insert into Continents (Continent_name) values (%s)"
     cursor.execute(insert_sql, (data["name"],))
 
+#inserting the categories
+def insert_category(cursor, data):
+    check = universal_check(cursor, "Categories", "Category_name", data["name"])
+    if check:
+        return check
+
+    #inserting data
+    insert_sql = "insert into Categories (Category_name) values (%s)"
+    cursor.execute(insert_sql, (data["name"],))
+
 def main():
     db = connect_to_db()
     print("Connected to your database")
 
     #place where all the data is being held
     data = {
-        "Continent": "json_files/continents.json"
+        "Continent": "json_files/continents.json",
+        "Catagory": "json_files/catigory.json"
     }
 
     #creating the cursor
@@ -79,6 +90,11 @@ def main():
                     print(name)
                     #inserting the continents
                     inserting_continents(cursor, name)
+            case "Catagory":
+                names = load_data(item)
+                for name in names:
+                    print(name)
+                    insert_category(cursor, name)
 
     #closing the database
     print("Finished inserting all data!!!")

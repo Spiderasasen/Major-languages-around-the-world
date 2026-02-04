@@ -1,0 +1,53 @@
+[
+  { "name": "Romance" },
+  { "name": "Germanic" },
+  { "name": "Slavic" },
+  { "name": "Indo-Aryan" },
+  { "name": "Iranian" },
+  { "name": "Celtic" },
+  { "name": "Baltic" },
+  { "name": "Hellenic" },
+  { "name": "Armenian" },
+  { "name": "Albanian" },
+
+  { "name": "Semitic" },
+  { "name": "Cushitic" },
+  { "name": "Berber" },
+  { "name": "Chadic" },
+
+  { "name": "Sinitic" },
+  { "name": "Tibeto-Burman" },
+
+  { "name": "Bantu" },
+  { "name": "Atlantic-Congo" },
+  { "name": "Gur" },
+  { "name": "Mande" },
+
+  { "name": "Malayo-Polynesian" },
+  { "name": "Formosan" },
+
+  { "name": "South Dravidian" },
+  { "name": "Central Dravidian" },
+  { "name": "North Dravidian" },
+
+  { "name": "Oghuz" },
+  { "name": "Kipchak" },
+  { "name": "Karluk" },
+
+  { "name": "Finnic" },
+  { "name": "Ugric" },
+
+  { "name": "Japonic" },
+  { "name": "Koreanic" },
+  { "name": "Tai-Kadai" },
+  { "name": "Austroasiatic" },
+  { "name": "Hmong-Mien" },
+  { "name": "Mongolic" },
+  { "name": "Tungusic" },
+
+  { "name": "Quechuan" },
+  { "name": "Aymaran" },
+  { "name": "Mayan" },
+  { "name": "Tupian" },
+  { "name": "Pama-Nyungan" }
+]
