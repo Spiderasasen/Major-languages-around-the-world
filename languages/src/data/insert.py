@@ -57,12 +57,12 @@ def inserting_continents(cursor, data):
 
 #inserting the categories
 def insert_category(cursor, data):
-    check = universal_check(cursor, "Categories", "Category_name", data["name"])
+    check = universal_check(cursor, "Categories", "Catagory_name", data["name"])
     if check:
         return check
 
     #inserting data
-    insert_sql = "insert into Categories (Category_name) values (%s)"
+    insert_sql = "insert into Categories (Catagory_name) values (%s)"
     cursor.execute(insert_sql, (data["name"],))
 
 #inserting the language
