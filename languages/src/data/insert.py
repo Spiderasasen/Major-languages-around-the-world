@@ -65,6 +65,13 @@ def insert_category(cursor, data):
     insert_sql = "insert into Categories (Category_name) values (%s)"
     cursor.execute(insert_sql, (data["name"],))
 
+#inserting the language
+def insert_language(cursor, data):
+    check = universal_check(cursor, "Languages", "Language_name", data["name"])
+    if check:
+        return check
+
+#main
 def main():
     db = connect_to_db()
     print("Connected to your database")
