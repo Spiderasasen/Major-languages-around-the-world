@@ -1,7 +1,26 @@
 [
   {
     "name": "English",
-    "continent_id": 3,
-    "category_id": 2
+    "category": "Germanic"
+  },
+  {
+    "name": "Spanish",
+    "category": "Romance"
+  },
+  {
+    "name": "Portuguese",
+    "category": "Romance"
+  },
+  {
+    "name": "French",
+    "category": "Romance"
+  },
+  {
+    "name": "Italian",
+    "category": "Romance"
+  },
+  {
+    "name": "Romanian",
+    "category": "Romance"
   }
 ]

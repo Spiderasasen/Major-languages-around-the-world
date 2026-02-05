@@ -1,0 +1,50 @@
+[
+  {
+    "language": "English", "continent": [
+      "North America",
+      "Europe",
+      "Oceania",
+      "Asia",
+      "Africa",
+      "South America"
+    ]
+  },
+  {
+    "language": "Spanish",
+    "continent": [
+      "North America",
+      "South America",
+      "Africa",
+      "Europe"
+    ]
+  },
+  {
+    "language": "Portuguese",
+    "continent": [
+      "South America",
+      "Africa",
+      "Europe"
+    ]
+  },
+  {
+    "language": "French",
+    "continent": [
+      "Europe",
+      "Africa",
+      "North America",
+      "Asia",
+      "Oceania"
+    ]
+  },
+  {
+    "language": "Italian",
+    "continent": [
+      "Europe",
+      "Africa"
+    ]
+  },
+  {
+    "language": "Romanian",
+    "continent": "Europe"
+  }
+]
