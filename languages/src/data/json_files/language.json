@@ -1,26 +1,73 @@
 [
   {
-    "name": "English",
-    "category": "Germanic"
+    "category": "Romance",
+    "name": [
+      "Spanish",
+      "Portuguese",
+      "French",
+      "Italian",
+      "Romanian"
+    ]
   },
   {
-    "name": "Spanish",
-    "category": "Romance"
+    "category": "Germanic",
+    "name": [
+      "English",
+      "German",
+      "Dutch",
+      "Swedish",
+      "Norwegian"
+    ]
   },
   {
-    "name": "Portuguese",
-    "category": "Romance"
+    "category": "Slavic",
+    "name": [
+      "Polish",
+      "Czech",
+      "Slovak",
+      "Silesian",
+      "Kashubian",
+      "Sorbian",
+      "Russian",
+      "Ukrainian",
+      "Belarusian",
+      "Slovene",
+      "Croatian",
+      "Serbian",
+      "Bosnian",
+      "Montenegrin",
+      "Bulgarian",
+      "Macedonian"
+    ]
   },
   {
-    "name": "French",
-    "category": "Romance"
-  },
-  {
-    "name": "Italian",
-    "category": "Romance"
-  },
-  {
-    "name": "Romanian",
-    "category": "Romance"
+    "category": "Indo-Aryan",
+    "name": [
+      "Hindi",
+      "Urdu",
+      "Punjabi",
+      "Sindhi",
+      "Kashmiri",
+      "Dogri",
+      "Rajasthani",
+      "Gujarati",
+      "Awadhi",
+      "Bhojpuri",
+      "Magahi",
+      "Chhattisgarhi",
+      "Bengali",
+      "Assamese",
+      "Odia",
+      "Maithili",
+      "Sylheti",
+      "Konkani",
+      "Marathi",
+      "Sinhala",
+      "Dhivehi",
+      "Saraiki",
+      "Hindko",
+      "Shina",
+      "Khowar"
+    ]
   }
 ]

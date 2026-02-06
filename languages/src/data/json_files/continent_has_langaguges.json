@@ -46,5 +46,224 @@
   {
     "language": "Romanian",
     "continent": "Europe"
+  },
+  {
+    "language": "German",
+    "continent": [
+      "South America",
+      "Europe",
+      "Africa"
+    ]
+  },
+  {
+    "language": "Dutch",
+    "continent": [
+      "Europe",
+      "South America",
+      "Africa",
+      "Asia"
+    ]
+  },
+  {
+    "language": "Swedish",
+    "continent": "Europe"
+  },
+  {
+    "language": "Norwegian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Polish",
+    "continent": "Europe"
+  },
+  {
+    "language": "Czech",
+    "continent": "Europe"
+  },
+  {
+    "language": "Slovak",
+    "continent": "Europe"
+  },
+  {
+    "language": "Silesian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Kashubian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Sorbian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Russian",
+    "continent": [
+      "Europe",
+      "Asia"
+    ]
+  },
+  {
+    "language": "Ukrainian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Belarusian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Slovene",
+    "continent": "Europe"
+  },
+  {
+    "language": "Croatian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Serbian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Bosnian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Montenegrin",
+    "continent": "Europe"
+  },
+  {
+    "language": "Bulgarian",
+    "continent": "Europe"
+  },
+  {
+    "language": "Macedonian",
+    "continent": "Europe"
+  },
+    {
+    "language": "Hindi",
+    "continent": [
+      "Asia",
+      "North America",
+      "Europe",
+      "Oceania",
+      "Africa"
+    ]
+  },
+  {
+    "language": "Urdu",
+    "continent": [
+      "Asia",
+      "Europe",
+      "North America",
+      "Oceania"
+    ]
+  },
+  {
+    "language": "Punjabi",
+    "continent": [
+      "Asia",
+      "Europe",
+      "North America",
+      "Oceania"
+    ]
+  },
+  {
+    "language": "Sindhi",
+    "continent": "Asia"
+  },
+  {
+    "language": "Kashmiri",
+    "continent": "Asia"
+  },
+  {
+    "language": "Dogri",
+    "continent": "Asia"
+  },
+  {
+    "language": "Rajasthani",
+    "continent": "Asia"
+  },
+  {
+    "language": "Gujarati",
+    "continent": [
+      "Asia",
+      "Africa"
+    ]
+  },
+  {
+    "language": "Awadhi",
+    "continent": "Asia"
+  },
+  {
+    "language": "Bhojpuri",
+    "continent": [
+      "Asia",
+      "Africa"
+    ]
+  },
+  {
+    "language": "Magahi",
+    "continent": "Asia"
+  },
+  {
+    "language": "Chhattisgarhi",
+    "continent": "Asia"
+  },
+  {
+    "language": "Bengali",
+    "continent": [
+      "Asia",
+      "Europe",
+      "North America",
+      "Oceania"
+    ]
+  },
+  {
+    "language": "Assamese",
+    "continent": "Asia"
+  },
+  {
+    "language": "Odia",
+    "continent": "Asia"
+  },
+  {
+    "language": "Maithili",
+    "continent": "Asia"
+  },
+  {
+    "language": "Sylheti",
+    "continent": "Asia"
+  },
+  {
+    "language": "Konkani",
+    "continent": "Asia"
+  },
+  {
+    "language": "Marathi",
+    "continent": "Asia"
+  },
+  {
+    "language": "Sinhala",
+    "continent": "Asia"
+  },
+  {
+    "language": "Dhivehi",
+    "continent": "Asia"
+  },
+  {
+    "language": "Saraiki",
+    "continent": "Asia"
+  },
+  {
+    "language": "Hindko",
+    "continent": "Asia"
+  },
+  {
+    "language": "Shina",
+    "continent": "Asia"
+  },
+  {
+    "language": "Khowar",
+    "continent": "Asia"
   }
 ]
